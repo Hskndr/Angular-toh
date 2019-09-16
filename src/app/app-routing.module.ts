@@ -6,8 +6,10 @@ import {HeroDetailComponent} from './hero-detail/hero-detail.component';
 import {GridComponent} from './grid/grid.component';
 import {ApiaryServiceComponent} from './apiary-service/apiary-service.component';
 import {FlexComponent} from './flex/flex.component';
+import {RatesComponent} from './rates/rates.component';
 
 const routes: Routes = [
+  {path: 'rates', component: RatesComponent},
   {path: 'apiary', component: ApiaryServiceComponent},
   {path: 'flex', component: FlexComponent},
   {path: 'grid', component: GridComponent},

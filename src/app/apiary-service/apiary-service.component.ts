@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {CrudService} from '../services/crud.service';
 
 @Component({
   selector: 'app-apiary-service',
@@ -8,15 +7,13 @@ import {CrudService} from '../services/crud.service';
 })
 export class ApiaryServiceComponent implements OnInit {
 
-  constructor(
-    private crudService: CrudService
-  ) {
+
+  constructor() {
   }
 
   ngOnInit() {
+
   }
 
-  loadQuestions() {
-    this.crudService.getQuestions();
-  }
+
 }
