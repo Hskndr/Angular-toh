@@ -1,23 +1,18 @@
-<p>Rate works!</p>
-
-<div>
+<p>Rate works! from <a href="https://academia-binaria.com/comunicaciones-http-en-Angular/">this</a></p>
   <h2> Currency Rates. </h2>
   <h3> From Euro to the world </h3>
-  <p>HSKNDR: From exchanges api</p>
+  <p>HSKNDR: From exchanges api (not use service)</p>
+<div>
   <pre>{{ currentEuroRates | json }}</pre>
 </div>
 
 <div>
   <p>Save Rates</p>
-  <input value="Save Rates" type="button" (click)="postRatesByDate()"/>
-</div>
-
-<div>
-  <input value="Refresh" type="button" (click)="getRatesByDate()" />
-  <input value="Delete Rates" type="button" (click)="deleteRatesByDate()" />
+  <input value="Save Rates" class="primary" type="button" (click)="postRatesByDate()"/>
+  <input value="Refresh" class="primary" type="button" (click)="getRatesByDate()" />
   <pre>{{ ratesByDate| json }}</pre>
+  <input value="Delete Rates" class="secondary" type="button" (click)="deleteRatesByDate()" />
+
 </div>
 
-<div>
-  <app-obserates></app-obserates>
-</div>
+<app-obserates></app-obserates>

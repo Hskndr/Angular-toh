@@ -7,8 +7,16 @@ import {GridComponent} from './grid/grid.component';
 import {ApiaryServiceComponent} from './apiary-service/apiary-service.component';
 import {FlexComponent} from './flex/flex.component';
 import {RatesComponent} from './rates/rates.component';
+import {MercadolibreComponent} from './mercadolibre/mercadolibre.component';
+import {ObseratesComponent} from './rates/obserates/obserates.component';
+import {UserComponent} from './user/user.component';
+import {NewsComponent} from './news/news.component';
 
 const routes: Routes = [
+  {path: 'news', component: NewsComponent},
+  {path: 'user', component: UserComponent},
+  {path: 'observables', component: ObseratesComponent},
+  {path: 'mercadolibre', component: MercadolibreComponent},
   {path: 'rates', component: RatesComponent},
   {path: 'apiary', component: ApiaryServiceComponent},
   {path: 'flex', component: FlexComponent},

@@ -1,6 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {RateByDate} from './models/RateByDate';
+import {ExchangesRates} from './models/ExchangesRates';
+
 
 @Component({
   selector: 'app-rates',
@@ -9,9 +11,9 @@ import {RateByDate} from './models/RateByDate';
 })
 export class RatesComponent implements OnInit {
   // API url.
-  private urlapi = 'https://api.exchangeratesapi.io/latest';
+  private ratesApi = 'https://api.exchangeratesapi.io/latest';
 // Object to get the rates' information
-  public currentEuroRates: any = null;
+  public currentEuroRates: ExchangesRates = null;
 
   // Url save rates' data
   private ratesByDateApi = 'https://api-base.herokuapp.com/api/pub/rates';
@@ -27,10 +29,10 @@ export class RatesComponent implements OnInit {
 // Method to GET the information from api exchanges
   private getCurrentEuroRates() {
     const currencies = 'USD,GBP,CHF,JPY';
-    const url = `${this.urlapi}?symbols=${currencies}`;
+    const url = `${this.ratesApi}?symbols=${currencies}`;
     this.httpClient
-      .get(url)
-      .subscribe(apiData => (this.currentEuroRates = apiData));
+      .get<ExchangesRates>(url)
+      .subscribe(apiResult => (this.currentEuroRates = apiResult));
   }
 
   // Method to POST the information to heroku

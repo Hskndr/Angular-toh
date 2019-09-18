@@ -18,6 +18,12 @@ import {HttpClientInMemoryWebApiModule} from 'angular-in-memory-web-api';
 import {InMemoryDataService} from './in-memory-data.service';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { ObseratesComponent } from './rates/obserates/obserates.component';
+import { MercadolibreComponent } from './mercadolibre/mercadolibre.component';
+import {UserService} from './services/user.service';
+import {CrudService} from './services/crud.service';
+import { UserComponent } from './user/user.component';
+import {ApinewService} from './services/apinew.service';
+import { NewsComponent } from './news/news.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +38,10 @@ import { ObseratesComponent } from './rates/obserates/obserates.component';
     HskndrCodeComponent,
     RatesComponent,
     HeroSearchComponent,
-    ObseratesComponent
+    ObseratesComponent,
+    MercadolibreComponent,
+    UserComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +52,11 @@ import { ObseratesComponent } from './rates/obserates/obserates.component';
       InMemoryDataService, {dataEncapsulation: false}
     )*/
   ],
-  providers: [],
+  providers: [
+    UserService,
+    CrudService,
+    ApinewService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {

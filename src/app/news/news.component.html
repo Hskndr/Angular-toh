@@ -1,0 +1,11 @@
+<p>
+  news works! from <a href="https://www.techiediaries.com/angular-tutorial-example-rest-api-httpclient-get-ngfor/">this</a>
+</p>
+<br>
+fix error in new links
+<br>
+<div *ngFor="let article of articles">
+  <h2>{{article.title}}</h2>
+  <p>{{article.description}}</p>
+  <a href="{{article.url}}">Read full article</a>
+</div>
