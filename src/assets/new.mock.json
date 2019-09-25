@@ -1,0 +1,158 @@
+{
+  "status": "ok",
+  "totalResults": 10,
+  "articles": [
+    {
+      "source": { "id": "techcrunch", "name": "TechCrunch"
+      },
+      "author": "Catherine Shu",
+      "title":
+        "Honestbee owes almost $1 million in unpaid salary to employees, according to affidavit filed by its CEO",
+      "description":
+        "Honestbee, the Singapore-based grocery delivery startup that has been struggling with financial issues, owes 217 employees a total of almost USD $1 million in unpaid salary. The Strait Times reported that the figure was revealed in an affidavit filed in court…",
+      "url":
+        "https: //techcrunch.com/2019/09/23/honestbee-owes-almost-1-million-in-unpaid-salary-to-employees-according-to-affidavit-filed-by-its-ceo/",
+      "urlToImage":
+        "https: //techcrunch.com/wp-content/uploads/2019/09/press-media-6.jpg?w=600",
+      "publishedAt": "2019-09-24T05: 53: 28Z",
+      "content":
+        "Honestbee, the Singapore-based grocery delivery startup that has been struggling with financial issues, owes 217 employees a total of almost USD $1 million in unpaid salary. The Strait Times reported that the figure was revealed in an affidavit filed in court… [+1840 chars]"
+    },
+    {
+      "source": { "id": "techcrunch", "name": "TechCrunch"
+      },
+      "author": "Catherine Shu",
+      "title":
+        "Messaging app Kik shuts down as company focuses on Kin, its cryptocurrency",
+      "description":
+        "Kik Interactive CEO Ted Livingston announced today that the company is shutting down Kik Messenger to focus on its cryptocurrency Kin, the target of a lawsuit filed by the Securities and Exchange Commission. The company’s team will be reduced to 19 people, a …",
+      "url":
+        "https: //techcrunch.com/2019/09/23/messaging-app-kik-shuts-down-as-company-focuses-on-kin-its-cryptocurrency/",
+      "urlToImage":
+        "https: //techcrunch.com/wp-content/uploads/2017/06/kik-ted-livingston-shenzhen-china-2.jpg?w=534",
+      "publishedAt": "2019-09-24T02: 28: 11Z",
+      "content":
+        "Kik Interactive CEO Ted Livingston announced today that the company is shutting down Kik Messenger to focus on its cryptocurrency Kin, the target of a lawsuit filed by the Securities and Exchange Commission. The companys team will be reduced to 19 people, a r… [+2422 chars]"
+    },
+    {
+      "source": { "id": "techcrunch", "name": "TechCrunch"
+      },
+      "author": "Jake Bright",
+      "title":
+        "Hear about investing in African tech at Disrupt SF with Marieme Diop, Wale Ayeni and Sheel Mohnot",
+      "description":
+        "If you’re a VC or founder in London, Bangalore or San Francisco, you’ll likely interact with some part of Africa’s tech landscape for the first time — or more — in the near future. When measured by monetary values, the continent’s tech ecosystem is small by S…",
+      "url":
+        "https: //techcrunch.com/2019/09/23/hear-about-investing-in-african-tech-at-disrupt-sf-with-marieme-diop-wale-ayeni-and-sheel-mohnot/",
+      "urlToImage":
+        "https: //techcrunch.com/wp-content/uploads/2019/09/disrupt-africa-session.jpg?w=711",
+      "publishedAt": "2019-09-24T01: 10: 17Z",
+      "content":
+        "If youre a VC or founder in London, Bangalore or San Francisco, youll likely interact with some part of Africas tech landscape for the first time — or more — in the near future. When measured by monetary values, the continent’s tech ecosystem is small by Shen… [+2904 chars]"
+    },
+    {
+      "source": { "id": "techcrunch", "name": "TechCrunch"
+      },
+      "author": "Lucas Matney",
+      "title": "Facebook buys startup building neural monitoring armband",
+      "description":
+        "Facebook is buying CTRL-labs, a NY-based startup building an armband that translates movement and the wearer’s neural impulses into digital input signals, a company spokesperson tells TechCrunch. CTRL-labs raised $67 million according to Crunchbase. The start…",
+      "url":
+        "https: //techcrunch.com/2019/09/23/facebook-buys-startup-building-neural-monitoring-armband/",
+      "urlToImage":
+        "https: //techcrunch.com/wp-content/uploads/2019/09/Screen-Shot-2019-09-23-at-2.23.23-PM.png?w=764",
+      "publishedAt": "2019-09-23T23: 30: 43Z",
+      "content":
+        "Facebook is buying CTRL-labs, a NY-based startup building an armband that translates movement and the wearer’s neural impulses into digital input signals, a company spokesperson tells TechCrunch.\r\nCTRL-labs raised $67 million according to Crunchbase. The star… [+3192 chars]"
+    },
+    {
+      "source": { "id": "techcrunch", "name": "TechCrunch"
+      },
+      "author": "Anthony Ha",
+      "title": "Engage:BDR raises $26.25M to fund its NetZero publisher payments",
+      "description":
+        "Engage:BDR announced today that it has raised $23.25 million in new funding. CEO Ted Dhanik told me that this includes both debt and equity funding, and will be used to the grow the company’s NetZero payments program. NetZero is designed to address the ongoin…",
+      "url": "https: //techcrunch.com/2019/09/23/engage-bdr-netzero/",
+      "urlToImage":
+        "https: //techcrunch.com/wp-content/uploads/2019/05/GettyImages-914261430.jpg?w=600",
+      "publishedAt": "2019-09-23T21: 38: 50Z",
+      "content":
+        "Engage:BDR announced today that it has raised $23.25 million in new funding.\r\nCEO Ted Dhanik told me that this includes both debt and equity funding, and will be used to the grow the company’s NetZero payments program.\r\nNetZero is designed to address the ongo… [+1269 chars]"
+    },
+    {
+      "source": { "id": "techcrunch", "name": "TechCrunch"
+      },
+      "author": "Anthony Ha",
+      "title": "Social radio startup Stationhead moves beyond live broadcasts",
+      "description":
+        "Stationhead, the mobile app that turns its users into streaming radio DJs, got a big upgrade today. Where Stationhead DJs were previously limited to broadcasting live, they can now record their shows, making them available on-demand for anyone to listen later…",
+      "url": "https: //techcrunch.com/2019/09/23/stationhead-on-demand/",
+      "urlToImage":
+        "https: //techcrunch.com/wp-content/uploads/2019/09/Ryan-Star-CEO-Photo-credit_-Shervin-Lainez.jpg?w=557",
+      "publishedAt": "2019-09-23T21: 03: 48Z",
+      "content":
+        "Stationhead, the mobile app that turns its users into streaming radio DJs, got a big upgrade today. Where Stationhead DJs were previously limited to broadcasting live, they can now record their shows, making them available on-demand for anyone to listen later… [+2219 chars]"
+    },
+    {
+      "source": { "id": "techcrunch", "name": "TechCrunch"
+      },
+      "author": "Julian Shapiro",
+      "title": "What’s the right way to sponsor a YouTube influencer?",
+      "description":
+        "We’ve aggregated the world’s best growth marketers into one community. Twice a month, we ask them to share their most effective growth tactics, and we compile them into this Growth Report.",
+      "url":
+        "https: //techcrunch.com/2019/09/23/whats-the-right-way-to-sponsor-a-youtube-influencer/",
+      "urlToImage":
+        "https: //techcrunch.com/wp-content/uploads/2019/09/GettyImages-641263142.jpg?w=566",
+      "publishedAt": "2019-09-23T20: 59: 51Z",
+      "content":
+        "Weve aggregated the worlds best growth marketers into one community. Twice a month, we ask them to share their most effective growth tactics, and we compile them into this Growth Report.\r\nThis is how youre going stay up-to-date on growth marketing tactics wit… [+3941 chars]"
+    },
+    {
+      "source": { "id": "techcrunch", "name": "TechCrunch"
+      },
+      "author": "Lucas Matney",
+      "title": "Unity bets on cloud testing with new Simulation product",
+      "description":
+        "For the past several years, Unity’s valuation has ballooned alongside their public ambitions to become essential to customers beyond game developers. One of the more interesting use cases of the real-time rendering game engine, had been helping companies trai…",
+      "url":
+        "https: //techcrunch.com/2019/09/23/unity-bets-on-cloud-testing-with-new-simulation-product/",
+      "urlToImage":
+        "https: //techcrunch.com/wp-content/uploads/2019/09/Screen-Shot-2019-09-23-at-1.15.39-PM.png?w=764",
+      "publishedAt": "2019-09-23T20: 29: 14Z",
+      "content":
+        "For the past several years, Unity’s valuation has ballooned alongside their public ambitions to become essential to customers beyond game developers.\r\nOne of the more interesting use cases of the real-time rendering game engine, had been helping companies tra… [+2425 chars]"
+    },
+    {
+      "source": { "id": "techcrunch", "name": "TechCrunch"
+      },
+      "author": "Ned Desmond",
+      "title": "Five (more) reasons to come to Disrupt SF next week",
+      "description":
+        "Disrupt SF will light up on San Francisco on Oct. 2-4, and as usual we’ve designed the show to be unmissable for founders, investors and just about anyone in the global startup scene. In a post two weeks ago, we spelled out five of the best reasons to attend,…",
+      "url":
+        "https: //techcrunch.com/2019/09/23/five-more-reasons-to-come-to-disrupt-sf-next-week/",
+      "urlToImage":
+        "https: //techcrunch.com/wp-content/uploads/2018/03/tc_disrupt_social_fb1.jpg?w=764",
+      "publishedAt": "2019-09-23T19: 47: 24Z",
+      "content":
+        "Disrupt SF will light up on San Francisco on Oct. 2-4, and as usual weve designed the show to be unmissable for founders, investors and just about anyone in the global startup scene. In a post two weeks ago, we spelled out five of the best reasons to attend, … [+3205 chars]"
+    },
+    {
+      "source": { "id": "techcrunch", "name": "TechCrunch"
+      },
+      "author": "Darrell Etherington",
+      "title":
+        "Amazon might reveal fitness-tracking Alexa wireless earbuds, Echo with better sound this week",
+      "description":
+        "Amazon is building wireless earbuds that offer Alexa voice assistant access, and fitness tracking for use during activities, according to a new report from CNBC. These earbuds, combined with a new, larger Echo designed to provide more premium sound, could fea…",
+      "url":
+        "https: //techcrunch.com/2019/09/23/amazon-might-reveal-fitness-tracking-alexa-wireless-earbuds-echo-with-better-sound-this-week/",
+      "urlToImage":
+        "https: //techcrunch.com/wp-content/uploads/2019/09/alexabuds.jpg?w=764",
+      "publishedAt": "2019-09-23T19: 27: 35Z",
+      "content":
+        "Amazon is building wireless earbuds that offer Alexa voice assistant access, and fitness tracking for use during activities, according to a new report from CNBC. These earbuds, combined with a new, larger Echo designed to provide more premium sound, could fea… [+2162 chars]"
+    }
+  ]
+}
