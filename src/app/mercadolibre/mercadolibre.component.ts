@@ -7,8 +7,9 @@ import {HttpClient} from '@angular/common/http';
   styleUrls: ['./mercadolibre.component.css']
 })
 export class MercadolibreComponent implements OnInit {
-  private mlurlapi = 'https://api.mercadolibre.com/sites';
-
+  // private mlurlapi = 'https://api.mercadolibre.com/sites';
+  private mlurlapi = 'assets/ml.mock.json';
+  sites;
 
   constructor(
     private mlHttpClient: HttpClient
@@ -22,6 +23,11 @@ export class MercadolibreComponent implements OnInit {
   private getMlSites() {
 
     const url = `${this.mlurlapi}`;
-    this.mlHttpClient.get(url).subscribe();
+    this.mlHttpClient.get(url).subscribe(
+      (data) => {
+        console.log(data);
+        this.sites = data['sites'];
+      }
+    );
   }
 }
