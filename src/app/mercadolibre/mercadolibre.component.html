@@ -1,8 +1,16 @@
 <p>
-  mercadolibre works!
+  mercadolibre works! Using <em>ml.mock.json</em>
 </p>
 
 <div *ngFor="let site of sites">
-  <h2>{{site.id}}</h2>
-  <p>{{site.name}}</p>
+  <div class="ml-container">
+    <div class="ml-item">
+      <label for=""> id: </label>
+      <h2> &nbsp;{{site.id}}</h2>
+    </div>
+    <div class="ml-item">
+      <label for=""> Mercadolibre Country: </label>
+      <p> &nbsp;{{site.name}}</p>
+    </div>
+  </div>
 </div>

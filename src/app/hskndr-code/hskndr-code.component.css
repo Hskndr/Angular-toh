@@ -5,9 +5,9 @@
   grid-gap: 1px;
   grid-auto-rows: minmax(1.5rem, auto);
   width: 6.3rem;
-  background-color: darkgray;
-  color: #334953;
-
+  color: forestgreen;
+  border: 7px solid darkgreen;
+  background-color: black;
 }
 
 .type-normal {

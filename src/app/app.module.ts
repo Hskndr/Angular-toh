@@ -24,6 +24,7 @@ import {CrudService} from './services/crud.service';
 import { UserComponent } from './user/user.component';
 import {ApinewService} from './services/apinew.service';
 import { NewsComponent } from './news/news.component';
+import { AsyncComponent } from './async/async.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { NewsComponent } from './news/news.component';
     ObseratesComponent,
     MercadolibreComponent,
     UserComponent,
-    NewsComponent
+    NewsComponent,
+    AsyncComponent
   ],
   imports: [
     BrowserModule,

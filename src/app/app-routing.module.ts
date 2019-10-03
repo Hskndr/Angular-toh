@@ -11,11 +11,13 @@ import {MercadolibreComponent} from './mercadolibre/mercadolibre.component';
 import {ObseratesComponent} from './rates/obserates/obserates.component';
 import {UserComponent} from './user/user.component';
 import {NewsComponent} from './news/news.component';
+import {AsyncComponent} from './async/async.component';
 
 const routes: Routes = [
+  {path: 'async', component: AsyncComponent},
   {path: 'news', component: NewsComponent},
   {path: 'user', component: UserComponent},
-  {path: 'observables', component: ObseratesComponent},
+  {path: 'obserates', component: ObseratesComponent},
   {path: 'mercadolibre', component: MercadolibreComponent},
   {path: 'rates', component: RatesComponent},
   {path: 'apiary', component: ApiaryServiceComponent},

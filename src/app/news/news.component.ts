@@ -1,3 +1,6 @@
+
+/* HSKNDR: WITH *NGFOR */
+
 import {Component, OnInit} from '@angular/core';
 import {ApinewService} from '../services/apinew.service';
 
@@ -22,3 +25,4 @@ export class NewsComponent implements OnInit {
   }
 
 }
+

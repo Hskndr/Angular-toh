@@ -33,19 +33,30 @@ nav a.active {
 }
 
 /*HSKNDR: CUSTOM STYLES*/
-.header-container{
+.header-container {
   position: sticky !important;
   top: 0;
   z-index: 999;
-  background-color: white;
+  background-image: url("../assets/images/288111.jpg");
+  background-position-y: -190px;
+  background-size: cover;
 }
+
 .header {
   position: sticky;
   display: flex;
-  flex-direction: initial;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.title{
+.header h1 {
+  font-family: "Adobe Gothic Std";
+  color: #BBD8DC !important;
+  background-color: rgba(0,0,0,0.5);
+  text-shadow: 3px 3px 3px darkred;
+}
+
+.title {
   font-size: 50px;
 }
 
@@ -55,9 +66,11 @@ nav a.active {
   align-items: center;
 
 }
+
 .navbar a {
   flex: 1 1 auto;
 }
-.main{
+
+.main {
   padding: 50px;
 }
